@@ -1,0 +1,59 @@
+.listaContainer {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2.5rem;  
+    background-color: var(--white-color);
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+                0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border: 1px solid #e2e8f0; 
+    flex: 1;
+}
+
+.listaContainer h1 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: var(--dark-color);
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.listaContainer p {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.tabelaUsuarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: var(--spacing-unit);
+    background-color: var(--white-color);
+    border-radius: 0.5rem;
+    overflow: hidden; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.tabelaUsuarios th,
+.tabelaUsuarios td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tabelaUsuarios th {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.tabelaUsuarios tbody tr:nth-child(even) {
+    background-color: #f7f9fc;
+}
+
+.tabelaUsuarios tbody tr:hover {
+    background-color: #eef2f6;
+    transition: background 0.2s ease-in-out;
+}

@@ -1,0 +1,85 @@
+.promo-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff5722, #ff9800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-card {
+  background: #fff;
+  width: 480px;
+  padding: 35px 40px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.promo-titulo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #d84315;
+}
+
+.promo-subtitulo {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.aviso-box {
+  background: #fff3e0;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  margin-bottom: 25px;
+  border-left: 5px solid #ff9800;
+}
+
+.aviso-box h3 {
+  margin: 0 0 10px 0;
+  color: #e65100;
+}
+
+.aviso-box ul {
+  margin: 0;
+  padding-left: 18px;
+  color: #5a5a5a;
+}
+
+.botoes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.botao {
+  background-color: #ff5722;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.botao:hover {
+  background-color: #e64a19;
+}
+
+.botao.secundario {
+  background-color: #424242;
+}
+
+.botao.secundario:hover {
+  background-color: #212121;
+}
+
+.botao.voltar {
+  background-color: #0077cc;
+}
+
+.botao.voltar:hover {
+  background-color: #005da3;
+}
